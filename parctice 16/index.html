@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and input tags in HTML </title>
+</head>
+<body>
+    <form action="post">
+        <div>
+    <label for="username"> Name</label>
+        <input type="text" id="username" name="username" placeholder="Enter name">
+    </div>
+    <div>
+        <input type="radio" id="mela" name="gender" value="male">
+        <label for="mela">Mela</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">female</label>
+        
+    </div>
+    
+    <div>
+        <input type="checkbox" id="subscribe" name="subscribe " value="yes">
+        <label for="subscribe">subscribe</label>
+    </div>
+    <div>
+        <label for="comment">Enter Comment</label>
+        <br>
+        <textarea id="comment" name="comment"  rows="4" cols="50"> enter comment here
+        </textarea>
+    </div>
+    <div>
+        <select name="city" id="city">
+            <option value="Karachi">Karachi</option>
+            <option value="Lahore">Lahore</option>
+            <option value="Faisalabad">Faisalabad</option>
+            <option value="Kotla Qasim Khan">Kotla Qasim Khan</option>
+        </select>
+    </div>
+</form>
+
+</body>
+</html>
