@@ -1,0 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div, span {
+ color: greenyellow;
+ background-color: blueviolet;
+}
